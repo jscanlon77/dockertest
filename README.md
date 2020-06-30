@@ -29,12 +29,12 @@ docker image ls
 # in github create a token which can be used to login via the angular cli command line to connect to github
 docker login -u jscanlon77@googlemail.com -p <some token> docker.pkg.github.com
   
- # then issue the command to push the docker image
+# then issue the command to push the docker image
  docker push cd0faba930d0 docker.pkg.github.com/jscanlon77/dockertest/latest:0.0.1
  
- and then we're done..
+and then we're done..
  
- #Commands to start and stop docker images
+# Commands to start and stop docker images
  
- docker container stop <image_id> 
+docker container stop <image_id> 
 docker container rm <image_id>
